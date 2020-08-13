@@ -9,7 +9,15 @@
     <version>0.0.1-SNAPSHOT</version>
     <modules>
         <module>cloud-provider-payment-8001</module>
+        <module>cloud-consumer-order-80</module>
+        <module>cloud-api-commons</module>
     </modules>
+    <dependencies>
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-autoconfigure</artifactId>
+        </dependency>
+    </dependencies>
     <name>springcloud-ly-template</name>
     <description>Demo project for Spring Boot</description>
 
